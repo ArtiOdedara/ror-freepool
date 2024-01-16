@@ -1,0 +1,17 @@
+<%= form_for @product do |f| %>
+    
+  <div>
+    <%= f.label :name, "name" %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div>
+    <%= f.label :price, "price" %>
+    <%= f.text_area :price %>
+  </div>
+
+  <div>
+    <%= f.submit "Submit", disable_with: 'Submiting...' %>
+  </div>
+  
+<% end %>
