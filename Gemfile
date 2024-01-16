@@ -69,3 +69,5 @@ end
 gem 'devise'
 gem 'stripe'
 gem 'pry', '~> 0.13.1'
+
+gem 'aws-sdk-s3'
